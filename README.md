@@ -8,5 +8,11 @@ Prometheus и grafana установлены на master ноде. NodeExporter 
 Prometheus забирает статистику с Master ноды (localhost) и Backup ноды (89.169.138.53). Так было сделано, чтобы в графане разделить статистику по haproxy, вместо того, чтобы опрашивать активную ноду, по кластерному IP адресу.
 
 ### Скриншоты из дашборда Haproxy в grafana
-![Master нода haproxy](/grafana_screenshot/Haproxy_master.PNG?raw=true "Master нода")
-![Backup нода haproxy](/grafana_screenshot/Haproxy_backup.PNG?raw=true "Backup нода")
+![Master нода haproxy](/screenshot/Haproxy_master.PNG?raw=true "Master нода")
+![Backup нода haproxy](/screenshot/Haproxy_backup.PNG?raw=true "Backup нода")
+
+### Скриншот из дашборда prometheus
+![Prometheus scraper stats](/screenshot/prometheus.PNG?raw=true "prom")
+
+### Скриншот статистики haproxy
+![Haproxy stats](/screenshot/haproxy_stats.PNG?raw=true "haproxy stats")
